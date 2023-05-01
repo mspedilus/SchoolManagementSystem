@@ -1,20 +1,25 @@
 public class Student extends Person{
-    static int numOfStudents;
-     // ArrayList<String> major;
-    // ArrayList<String> minor;
+    static int numOfStudents = 1;
+    int studentId;
     String major;
     String minor;
     String classYear;
     String graduationDate;
 
-    
-    Student(String firstName, String lastName, int age, int phoneNumber, String email, String major, String minor, String classYear, String graduationDate){
+    //Constructor
+    Student(String firstName, String lastName, int age, int phoneNumber, String email, String major, String minor, int classYear, String graduationDate){
         super(firstName, lastName, age, phoneNumber, email);
+        this.setStudentId(numOfStudents);
+        this.setMajor(major);
+        this.setMinor(minor);
+        this.setYear(classYear);
+        this.setGraduationDate(graduationDate);
         numOfStudents++;
-        this.major = major;
-        this.minor = minor;
-        this.classYear = classYear;
-        this.graduationDate = graduationDate;
+        
+    }
+    
+    public void setStudentId(int studentId){
+        this.studentId = studentId;
     }
 
     public void setMajor(String major){
@@ -49,11 +54,6 @@ public class Student extends Person{
 
     public void setGraduationDate(String graduationDate){
         this.graduationDate = graduationDate;
-    }
-
-    @Override
-    public String toString(){
-        return firstName + " " + lastName + " " + age + " " + phoneNumber + " " + email + "\n" + major + " " + minor + " " + classYear + " " + graduationDate;
     }
     
 }
