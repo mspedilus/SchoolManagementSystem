@@ -4,4 +4,4 @@ Universty Management System is a terminal based program built using Java. It's d
 ![Screenshot 2023-05-04 193812](https://user-images.githubusercontent.com/32109441/236352026-d51efa39-bb39-4cab-806c-069e28f186bd.jpg)
 
 ### How to run
-Download files and run the App.java file using a terminal or IDE that supports java.
+Download files and run the App.java file in the src folder using a terminal or IDE that supports java.
