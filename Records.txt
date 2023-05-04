@@ -1,0 +1,11 @@
+----- All Student Records -----
+Student ID      First Name      Last Name       Age             Phone Number    Email                     Major           Minor           Class Year      Graduation Date
+1               1               1               1               1               1                         1               1               Freshman        1              
+2               1               2               2               2               2                         2               2               Sophmore        2              
+
+
+
+----- All Faculty Records -----
+Faculty ID      First Name      Last Name       Age             Phone Number    Email                     Occupation      Department      Years of Employment  Salary (Yearly)
+1               2                               2               2               2                         2               2               2                    2         
+2               3               3               3               3               3                         3               3               3                    33        
