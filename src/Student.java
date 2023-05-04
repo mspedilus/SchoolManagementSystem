@@ -7,12 +7,12 @@ public class Student extends Person{
     String graduationDate;
 
     //Constructor
-    Student(String firstName, String lastName, int age, int phoneNumber, String email, String major, String minor, int classYear, String graduationDate){
+    Student(String firstName, String lastName, int age, String phoneNumber, String email, String major, String minor, int classYear, String graduationDate){
         super(firstName, lastName, age, phoneNumber, email);
         this.setStudentId(numOfStudents);
         this.setMajor(major);
         this.setMinor(minor);
-        this.setYear(classYear);
+        this.setClassYear(classYear);
         this.setGraduationDate(graduationDate);
         numOfStudents++;
         
@@ -31,7 +31,7 @@ public class Student extends Person{
     }
 
 
-    public void setYear(int classYear){
+    public void setClassYear(int classYear){
         
         switch(classYear){
             case 1: 
